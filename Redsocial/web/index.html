@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="css/materialize.min.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+  <title>Tu red social</title>
+
+  <body class="login">
+    <div class="container">
+      <h1 class= "titulo">Tu red social</h1>
+      <div class="row">
+        <div class="input-field col s4 offset-s4">
+          <input placeholder="Usuario" id="usuario" type="text" required>
+          <input placeholder="Clave" id="clave" type="password" required>
+          <div class="botones">
+            <input type="button" class="waves-effect waves-light btn center" id="ingresar" value="Ingresar">
+            <input type="button" class="waves-effect waves-light btn center" id="registrar" value="Registrar">
+          </div>
+        </div>
+      </div>
+      <div class="forma_registro">
+        <div class="row">
+          <div class="col s6">
+            Nombre de Usuario: <input type="text" id="reg_usuario" style ="float : left"><br><br>
+          </div>
+          <div class="col s6">
+            Clave: <input type="password" id="reg_clave" style ="float : right"><br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            Nombre Completo: <input type="text" id="nombre" style ="float : left"><br><br>
+          </div>
+          <div class="col s6">
+            Telefono: <input type="number" id="telefono" style ="float : right"><br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            Ciudad: <input type="text" id="ciudad" style ="float : left"><br><br>
+          </div>
+          <div class="col s6">
+            Fecha de Nacimiento: <input type="date" id="fecha_nac" style ="float : right"><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" script src="js/jquery-3.0.0.js"></script>
+    <script type="text/javascript" script src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" script src="js/materialize.min.js"></script>
+    <script type="text/javascript" script src="js/index.js"></script>
+  </body>
+</html>

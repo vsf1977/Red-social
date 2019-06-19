@@ -1,0 +1,50 @@
+body[class*="login"]
+{
+  background: url("../img/fondo.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titulo
+{
+  color:#ffd180;
+  text-shadow: gray 0.05em 0.05em 0.01em;
+  text-align: center;
+}
+
+.forma_registro
+{
+  display: none;
+}
+
+.slogan
+{
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+.profile-container
+{
+  border: 2px solid #26a69a;
+  width: 65%;
+  padding-left:  0.4rem;
+  padding-right:  0.4rem;
+  border-radius: 1rem;
+}
+
+.botones
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media (max-width: 1750px)
+{
+  .botones
+  {
+    height: 100px;
+  }
+}
